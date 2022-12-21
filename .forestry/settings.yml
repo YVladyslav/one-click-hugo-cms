@@ -9,7 +9,7 @@ sections:
   label: nodes
   create: documents
   match: nodes/*
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: directory
   path: content
   label: Pages
