@@ -1,4 +1,26 @@
 ---
 label: node
 hide_body: true
-fields: []
+fields:
+- name: node_name
+  type: text
+  config:
+    required: false
+  label: node name
+- name: node
+  type: text
+  config:
+    required: true
+    min: 51
+    max: 24
+  label: node
+- name: probability
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: probability
