@@ -2,18 +2,18 @@
 label: node
 hide_body: true
 fields:
+- name: node
+  type: text
+  config:
+    required: true
+    min: 5
+    max: 24
+  label: node
 - name: node_name
   type: text
   config:
     required: false
   label: node name
-- name: node
-  type: text
-  config:
-    required: true
-    min: 51
-    max: 24
-  label: node
 - name: probability
   type: number
   description: ''
