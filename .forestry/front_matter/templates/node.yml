@@ -24,3 +24,5 @@ fields:
     max: 
     step: 
   label: probability
+pages:
+- TestNode.json
